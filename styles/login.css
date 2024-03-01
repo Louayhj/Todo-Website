@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box; 
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #242323;
+}
+
+.login-container {
+    text-align:center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+    margin-left: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.quote > h1{
+    font-family:cursive;
+    color: #ce7ce7;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #ce7ce7;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    width: 100%;
+    border-radius: 40px;
+   
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #242323;
+    color: #ce7ce7;
+    font-weight: bolder;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 40px;
+}
+button:hover{
+    background: #ce7ce7;
+    color: #242323;
+}
+
+@media (max-width: 600px) {
+    .login-container {
+        width: 90%;
+        margin: 10px;
+    }
+    
+    button {
+        margin-top: 10px;
+    }
+}
